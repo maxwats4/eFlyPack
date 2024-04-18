@@ -1,0 +1,47 @@
+.list-container {
+  width: calc(
+    100% - 50px
+  ); /* Set width to 100% minus the total padding (20px on each side) */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to the container */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.list-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-item:hover {
+  background-color: #f0f0f0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.details {
+  text-align: right;
+}
+

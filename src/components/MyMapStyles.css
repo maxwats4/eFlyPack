@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+   
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f3e4d7;
+  }
+  
+  /* height of the container */
+  .leaflet-container {
+    height: 80vh;
+    width: 175vh;
+    border-radius: 2rem;
+  }
+  
+  .MapContainer {
+    padding: 20px:
+    
+    
+  }
+  
+  .cluster-icon {
+    background-color: #333;
+    height: 2em;
+    width: 2em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    box-shadow: 0 0 0px 5px #fff;
+  }
+  
+  .App {
+    display: flex;
+     width: calc(
+    100% - 100px
+  ); /* Set width to 100% minus the total padding (20px on each side) */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+  
